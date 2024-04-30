@@ -1,0 +1,59 @@
+temp=Head; current1=Null
+while(NewNode->data >= temp->data && temp->next!=Head)
+{
+current1=temp;
+temp=temp->next;
+}
+
+10    20 30 40
+
+//insertion before the Head node
+if(temp==head && NewNode->data < Head->data)
+{ NewNode->next =Head;
+    current=Head;
+    while(current->next!=Head)
+        current=current->next
+    current->next=NewNode;
+    Head=NewNode
+}
+//Insertion aftert the last node
+if(temp->next==Head && temp->data < NewNode->data)
+{temp->next=NewNode
+NewNode->next=Head
+}
+Deletion
+1. temp=Head; current=Null
+while(temp->next!=Head && temp->data < SearchKey)
+{ current= temp;
+temp=temp->next;
+}
+
+}
+A. if(temp->data > SearchKey)
+     Print Error-Element doesnt exist
+B. if(temp->data ==Searchkey && temp->next ==Head && temp==Head)
+     Head=Null
+	return(temp->data)
+c. if(temp->data ==Searchkey && temp->next ==Head)
+     { current->next =Head;
+        return(temp->data);
+    }
+d. if(temp->data == SearchKey)
+{ current->next =temp->next;
+        return(temp->data);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
