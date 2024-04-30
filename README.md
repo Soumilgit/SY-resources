@@ -1,1 +1,1 @@
-Lab material.
+Reference material for Second Year Computer Engineering KJSCE.
