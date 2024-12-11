@@ -10,7 +10,7 @@
 
  Link to access Text Processing - Word Analysis VLAB in Module-5:[Click Here](https://nlp-iiith.vlabs.ac.in/exp/word-analysis/theory.html) 
 
-# Folder Structure:
+# Folder Structure :
 Here is the folder structure of the repository : 
 ```
 .github
